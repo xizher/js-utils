@@ -1,3 +1,4 @@
 export function randomRange (minValue, maxValue) {
-  return minValue + Math.round(Math.random() * (maxValue - minValue))
+  const range = maxValue - minValue
+  return minValue + Math.round(Math.random() * range)
 }
